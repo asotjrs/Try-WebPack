@@ -15,9 +15,8 @@
   "license": "ISC",
   "babel": {
     "presets": [
-      "env",
-      "stage-2",
-      "react"
+      "@babel/preset-env",
+      "@babel/preset-react"
     ]
   },
   "bugs": {
@@ -25,6 +24,9 @@
   },
   "homepage": "https://github.com/asotjrs/Try-WebPack#readme",
   "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
